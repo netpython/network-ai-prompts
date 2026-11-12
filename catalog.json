@@ -1,0 +1,107 @@
+[
+  {
+    "id": "01",
+    "title": "Trier un incident réseau en cours",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/01-triage-incident.md",
+    "use": "Une application est inaccessible ou dégradée et le point de panne reste inconnu."
+  },
+  {
+    "id": "02",
+    "title": "Diagnostiquer une session BGP ou un préfixe manquant",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/02-bgp-routes.md",
+    "use": "Une session BGP ne monte pas, un préfixe manque ou le chemin sélectionné semble incorrect."
+  },
+  {
+    "id": "03",
+    "title": "Diagnostiquer OSPF et sa convergence",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/03-ospf-convergence.md",
+    "use": "Une adjacency reste bloquée ou une route OSPF apparaît et disparaît."
+  },
+  {
+    "id": "04",
+    "title": "Tracer une panne VLAN, STP ou EtherChannel",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/04-switching-campus.md",
+    "use": "Des hôtes du campus perdent l’accès malgré des ports physiquement actifs."
+  },
+  {
+    "id": "05",
+    "title": "Analyser un VPN IPsec établi mais inutilisable",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/05-vpn-ipsec.md",
+    "use": "Un tunnel ne monte pas ou les applications ne passent pas alors que des SAs existent."
+  },
+  {
+    "id": "06",
+    "title": "Distinguer une panne DHCP d’une panne DNS",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/06-dhcp-dns.md",
+    "use": "Un poste n’obtient pas les bons paramètres ou les applications échouent par nom."
+  },
+  {
+    "id": "07",
+    "title": "Analyser une lenteur WAN avec des mesures exploitables",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/07-performance-wan.md",
+    "use": "Une application est lente ou intermittente et les premiers speedtests ne permettent pas de conclure."
+  },
+  {
+    "id": "08",
+    "title": "Concevoir une architecture réseau argumentée",
+    "category": "architecture",
+    "file": "prompts/architecture/08-concevoir-architecture.md",
+    "use": "Un nouveau site ou une refonte doit répondre à des contraintes concrètes de disponibilité et d’exploitation."
+  },
+  {
+    "id": "09",
+    "title": "Revoir une demande d’ouverture firewall",
+    "category": "securite",
+    "file": "prompts/securite/09-revue-regle-firewall.md",
+    "use": "Une demande applicative doit être convertie en règle minimale et testable."
+  },
+  {
+    "id": "10",
+    "title": "Auditer une configuration avec preuves et priorités",
+    "category": "securite",
+    "file": "prompts/securite/10-audit-configuration.md",
+    "use": "Des configurations doivent être confrontées à une politique interne et à leur rôle réel."
+  },
+  {
+    "id": "11",
+    "title": "Construire un plan de migration et son retour arrière",
+    "category": "changements",
+    "file": "prompts/changements/11-plan-migration.md",
+    "use": "Une évolution réseau doit être transformée en procédure exécutable pendant une fenêtre de maintenance."
+  },
+  {
+    "id": "12",
+    "title": "Spécifier et développer un programme Python NetOps",
+    "category": "automatisation",
+    "file": "prompts/automatisation/12-programme-python-netops.md",
+    "use": "Une tâche réseau récurrente doit devenir un programme réutilisable avec résultats fiables et erreurs visibles."
+  },
+  {
+    "id": "13",
+    "title": "Créer un playbook Ansible réseau exploitable",
+    "category": "automatisation",
+    "file": "prompts/automatisation/13-playbook-ansible.md",
+    "use": "Une collecte ou un changement doit être industrialisé avec un inventaire, un ciblage et des contrôles de résultat."
+  },
+  {
+    "id": "14",
+    "title": "Évaluer la capacité et préparer un renouvellement",
+    "category": "exploitation",
+    "file": "prompts/exploitation/14-capacite-et-renouvellement.md",
+    "use": "Des métriques de parc doivent alimenter un choix d’extension ou de remplacement."
+  },
+  {
+    "id": "15",
+    "title": "Rédiger un RCA fondé sur les preuves",
+    "category": "exploitation",
+    "file": "prompts/exploitation/15-rapport-rca.md",
+    "use": "Un incident est terminé et doit faire l’objet d’un compte rendu technique et décisionnel."
+  }
+]
