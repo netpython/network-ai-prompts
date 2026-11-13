@@ -56,3 +56,7 @@ Ces prompts ont été rédigés pour ce dépôt et relus pour leur couverture te
 Une réponse satisfaisante cite ses preuves, expose ses inconnues et définit une validation concrète. Pour le code et les playbooks, distingue vérification statique, essai hors ligne et exécution sur un équipement pilote.
 
 Le catalogue et les liens locaux ont été vérifiés. Les résultats produits par une IA restent à contrôler avant application.
+
+## Revue de changement
+
+Avant toute MEP, utilise le [prompt de revue de changement réseau](prompts/exploitation/16-revue-changement.md) pour vérifier les prérequis, risques, contrôles et rollback.
