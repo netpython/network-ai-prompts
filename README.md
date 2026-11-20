@@ -1,10 +1,10 @@
 # Network AI Prompts
 
-**15 prompts complets en français pour administrateurs et ingénieurs réseau.**
+**17 prompts complets en français pour administrateurs et ingénieurs réseau.**
 
 Chaque prompt cadre une mission précise avec ses données d’entrée, ses étapes d’analyse, son livrable et un critère de qualité. Les scénarios couvrent le diagnostic, la conception, la sécurité, les changements et l’automatisation.
 
-`15 missions` · `6 catégories` · `Données à renseigner` · `Livrables définis`
+`17 missions` · `6 catégories` · `Données à renseigner` · `Livrables définis`
 
 ## Choisir un prompt
 
@@ -25,6 +25,8 @@ Chaque prompt cadre une mission précise avec ses données d’entrée, ses éta
 | 13 | [Créer un playbook Ansible réseau exploitable](prompts/automatisation/13-playbook-ansible.md) | automatisation |
 | 14 | [Évaluer la capacité et préparer un renouvellement](prompts/exploitation/14-capacite-et-renouvellement.md) | exploitation |
 | 15 | [Rédiger un RCA fondé sur les preuves](prompts/exploitation/15-rapport-rca.md) | exploitation |
+| 16 | [Revoir un changement réseau](prompts/exploitation/16-revue-changement.md) | exploitation |
+| 17 | [Diagnostiquer un conflit IPv4](prompts/diagnostic/17-conflit-ipv4.md) | diagnostic |
 
 ## Utilisation
 

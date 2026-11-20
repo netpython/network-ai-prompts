@@ -103,5 +103,19 @@
     "category": "exploitation",
     "file": "prompts/exploitation/15-rapport-rca.md",
     "use": "Un incident est terminé et doit faire l’objet d’un compte rendu technique et décisionnel."
+  },
+  {
+    "id": "16",
+    "title": "Revoir un changement réseau",
+    "category": "exploitation",
+    "file": "prompts/exploitation/16-revue-changement.md",
+    "use": "Contrôler prérequis, risques et rollback avant une MEP."
+  },
+  {
+    "id": "17",
+    "title": "Diagnostiquer un conflit IPv4 sans effacer les preuves",
+    "category": "diagnostic",
+    "file": "prompts/diagnostic/17-conflit-ipv4.md",
+    "use": "Une IP change de MAC ou déclenche une alerte de conflit."
   }
 ]
